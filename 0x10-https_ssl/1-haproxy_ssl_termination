@@ -42,7 +42,7 @@ frontend real-matlab-frontend-http
 frontend real-matlab-frontend-https
 	bind *:443 ssl crt /etc/haproxy/certs/www.real-matlab.tech.pem
 	http-request set-header X-Forwarded-Proto https
-	default_backend ehoneah-backend
+	default_backend real-matlab-backend
 
 backend real-matlab
         balance roundrobin
