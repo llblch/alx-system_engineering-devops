@@ -1,1 +1,1 @@
-0x14-mysql all tasks
+0x14. MySQL - all tasks
