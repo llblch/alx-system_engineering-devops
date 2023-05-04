@@ -1,1 +1,1 @@
-0x13. Firewall - taks
+0x13. Firewall - all tasks
